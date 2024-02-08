@@ -1,0 +1,78 @@
+/*
+Theme Name: AccessPress Store Child
+Theme URI: https://accesspressthemes.com/wordpress-themes/accesspress-store/
+Template: accesspress-store
+Author: AccessPress Themes
+Author URI: http://accesspressthemes.com/
+Description: AccessPress Store is free WordPress theme that work beautifully with WooCommerce. The theme is packed with lots of exciting feature that enhances the ecommerce experience. It features Product slider, advanced whistlist, Featured product show list, call to action and many more. With its advanced customizer options, setting up the ecommerce website has become much more easy. Great customer support via online chat, email, support forum. Official support forum: http://accesspressthemes.com/support/ View full demo here: http://demo.accesspressthemes.com/accesspress-store/
+Tags: e-commerce,custom-menu,one-column,two-columns,three-columns,left-sidebar,right-sidebar,featured-images,custom-header,custom-colors,custom-background,threaded-comments,rtl-language-support
+Version: 2.3.4.1537127819
+Updated: 2018-09-16 19:56:59
+
+*/
+
+.slider-caption .caption-title {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    font-weight: 100;
+    line-height: 56px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-left: 65px;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.style_one .widget-title{
+    color: #ffffff;
+    font-size: 50px;
+    padding: 10px 0 0 0px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.style_one .promo-desc-title{
+    font-size: 20px;
+    text-shadow: 2px 0 0 #fff, 0px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #FFF, 1px 1px #fff, -1px 0px 0 #fff, -1px 0px 0 #fff, -1px -1px 0 #fff;
+}
+
+.style_one .promo-desc{
+    color: #ffffff;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.top-header {
+    display: none;
+}
+
+.before-top-header {
+    padding: 20px 0;
+}
+
+@media (max-width: 688px){
+    #main-slider .caption-title, #main-slider .slider-content > p > span {
+        font-size: 24px;
+    }
+}
+
+.content-area article .entry-content post-title {
+    margin: 15px 0px 10px 0px;
+}
+
+.woocommerce.single.single-product div.product form.cart {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 85%;
+}
+
+.inner_home {
+    border-bottom: 5px solid #ad0e0d;
+}
+
+.title-bg {
+    border-bottom: 3px solid #ad0e0d;
+}
+
+.top-footer-block .widget-title {
+    border-bottom: 3px solid #ad0e0d;
+    color: #000;
+}
