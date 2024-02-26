@@ -34,13 +34,13 @@ if (empty($single_page_layout)) {
                     <div class="gallery-item" data-index="1">
                         <img src="<?php echo get_template_directory_uri() . '-child/img/bicho-godano.jpg' ?>">
                         <p class="traveler-image-caption">
-                            Bicho Godano
+                            Víctor "Bicho" Godano y Javier López
                         </p>
                     </div>
                     <div class="gallery-item" data-index="2">
                         <img src="<?php echo get_template_directory_uri() . '-child/img/bicho-godano-2.jpg' ?>">
                         <p class="traveler-image-caption">
-                            Bicho Godano
+                            Javier López y Víctor "Bicho" Godano
                         </p>
                     </div>
                     <div class="gallery-item" data-index="3">
@@ -88,13 +88,13 @@ if (empty($single_page_layout)) {
                     <div class="gallery-item" data-index="10">
                         <img src="<?php echo get_template_directory_uri() . '-child/img/unknown.jpg' ?>">
                         <p class="traveler-image-caption">
-                            Unknown
+                            Cali Fidalgo
                         </p>
                     </div>
                     <div class="gallery-item" data-index="10">
                         <img src="<?php echo get_template_directory_uri() . '-child/img/unknown-2.jpg' ?>">
                         <p class="traveler-image-caption">
-                            Unknown
+                            Pedro Cachín
                         </p>
                     </div>
 
